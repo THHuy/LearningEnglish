@@ -13,11 +13,4 @@ function route(app){
     app.use('/user', userRoute )
     app.use('/exercises', exercisesRoute)
 }
-
-
-
-
-
-
-
 module.exports = route;

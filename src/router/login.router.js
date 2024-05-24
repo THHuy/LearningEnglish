@@ -10,7 +10,6 @@ router.get('/logout', loginController.logout)
 router.get('/register', loginController.register)
 router.post('/create', loginController.create)
 router.post('/login', loginController.login)
-
 router.get('/', loginController.index)
 
 
