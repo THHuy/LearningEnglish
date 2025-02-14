@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "supervisor ./src/index.js",
+    "start": "node ./src/index.js",
     "stop": "pm2 stop ./src/index.js",
     "delete": "pm2 delete ./src/index.js",
     "test": "echo \"No test specified\" && exit 0"
